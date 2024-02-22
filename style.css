@@ -1,0 +1,65 @@
+:root{
+    --font-family: 'Poppins', sans-serif;
+}
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+.menu-items{
+    list-style-type: none;
+}
+
+.navigation .main-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.navigation .menu-wrapper{
+    display: flex;
+    gap: 60px;
+    font-family: var(--font-family);
+}
+.navigation .menu-items > a {
+    text-decoration: none;
+    color: #21383e;
+    font-size: 20px;
+
+}
+.navigation .auth-wrapper{
+    display: flex;
+    gap: 60px;
+}
+.navigation .auth-wrapper > .btn{
+    font-weight: 600;
+    color: #553C16;
+    font-family: var(--font-family);
+    font-size: 16px;
+
+}
+.navigation .auth-wrapper > .btn-link{
+    background-color: transparent;
+    border: 0;
+
+}
+.navigation .auth-wrapper > .btn-link::after { 
+    content: '';
+    display: block;
+    position: absolute;
+    padding: 50px 70px;
+    top: 0;
+    right: 0;
+    background-color: #f5f2ec;
+    z-index: -1;
+    border-bottom-left-radius: 35px;
+}
+.hero-wrapper{
+    padding-top: 116px;
+    padding-left: 80px;
+    
+}
+
+
